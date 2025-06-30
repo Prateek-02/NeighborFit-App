@@ -35,23 +35,24 @@ NeighborFit helps users find neighborhoods that align with their **budget and li
 
 NeighborFit-App/
 │
-├── backend/ # Express backend
-│ ├── server.js
-│ ├── models/
-│ │ └── neighborhoodModel.js
-│ ├── controllers/
-│ │ └── matchController.js
-│ └── seedNeighborhoods.js
+├── backend/
+│   ├── server.js
+│   ├── models/
+│   │   └── neighborhoodModel.js
+│   ├── controllers/
+│   │   └── matchController.js
+│   └── seedNeighborhoods.js
 │
-├── frontend/ # Vite + React frontend
-│ ├── index.html
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ └── config.js
-│ └── ...
+├── frontend/
+│   ├── index.html
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── config.js
+│   └── ...
 │
-└── package.json # For concurrently running frontend and backend
+└── package.json
+
 
 
 ---
@@ -92,7 +93,7 @@ NeighborFit-App/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/NeighborFit-App.git
+git clone https://github.com/prateek-02/NeighborFit-App.git
 cd NeighborFit-App
 
 
