@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Koramangala",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "averageRent": 25000,
+    "safetyScore": 80,
+    "walkabilityScore": 85,
+    "publicTransportScore": 75,
+    "familyFriendlyScore\r": 78
+  },
+  {
+    "name": "Hinjewadi",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "averageRent": 18000,
+    "safetyScore": 78,
+    "walkabilityScore": 60,
+    "publicTransportScore": 65,
+    "familyFriendlyScore\r": 82
+  },
+  {
+    "name": "Gachibowli",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "averageRent": 22000,
+    "safetyScore": 82,
+    "walkabilityScore": 70,
+    "publicTransportScore": 72,
+    "familyFriendlyScore\r": 85
+  },
+  {
+    "name": "Salt Lake",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "averageRent": 20000,
+    "safetyScore": 75,
+    "walkabilityScore": 80,
+    "publicTransportScore": 78,
+    "familyFriendlyScore\r": 80
+  },
+  {
+    "name": "Connaught Place",
+    "city": "Delhi",
+    "state": "Delhi",
+    "averageRent": 30000,
+    "safetyScore": 70,
+    "walkabilityScore": 90,
+    "publicTransportScore": 85,
+    "familyFriendlyScore\r": 65
+  },
+  {
+    "name": "Banjara Hills",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "averageRent": 28000,
+    "safetyScore": 76,
+    "walkabilityScore": 75,
+    "publicTransportScore": 80,
+    "familyFriendlyScore\r": 79
+  },
+  {
+    "name": "Indiranagar",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "averageRent": 27000,
+    "safetyScore": 77,
+    "walkabilityScore": 88,
+    "publicTransportScore": 78,
+    "familyFriendlyScore\r": 76
+  },
+  {
+    "name": "Kothrud",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "averageRent": 19000,
+    "safetyScore": 80,
+    "walkabilityScore": 72,
+    "publicTransportScore": 70,
+    "familyFriendlyScore\r": 83
+  },
+  {
+    "name": "Alipore",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "averageRent": 26000,
+    "safetyScore": 74,
+    "walkabilityScore": 78,
+    "publicTransportScore": 76,
+    "familyFriendlyScore\r": 79
+  },
+  {
+    "name": "South Extension",
+    "city": "Delhi",
+    "state": "Delhi",
+    "averageRent": 32000,
+    "safetyScore": 68,
+    "walkabilityScore": 85,
+    "publicTransportScore": 80,
+    "familyFriendlyScore\r": 70
+  }
+]

@@ -6,8 +6,25 @@ exports.getMatches = async (req, res) => {
     try {
         const neighborhoods = await Neighborhood.find({});
 
-        // Calculate a score for each neighborhood
-        const scoredNeighborhoods = neighborhoods.map((n) => {
+        // Filter neighborhoods within +20% of user budget
+        let filteredNeighborhoods = neighborhoods;
+        if (budget) {
+            filteredNeighborhoods = neighborhoods.filter(
+                n => n.averageRent <= budget * 1.2
+            );
+        }
+
+        // Handle no matches gracefully
+        if (filteredNeighborhoods.length === 0) {
+            return res.json({
+                success: true,
+                matches: [],
+                message: "No neighborhoods found within your budget range. Please increase your budget to see matches.",
+            });
+        }
+
+        // Score each neighborhood
+        const scoredNeighborhoods = filteredNeighborhoods.map((n) => {
             let score = 0;
 
             if (budget) {
@@ -35,6 +52,7 @@ exports.getMatches = async (req, res) => {
         res.json({
             success: true,
             matches: scoredNeighborhoods.slice(0, 5), // top 5 matches
+            message: "Here are your top matched neighborhoods.",
         });
     } catch (err) {
         console.error(err);
