@@ -45,3 +45,6 @@ frontend/.vite/
 
 # Other
 *.local
+*.json
+!backend/*.json
+/NeighborFit_Indian_Data.json

@@ -1,0 +1,11 @@
+name,city,state,averageRent,safetyScore,walkabilityScore,publicTransportScore,familyFriendlyScore
+Karol Bagh,Delhi,Delhi,18000,75,78,70,80
+Dwarka,Delhi,Delhi,22000,80,85,85,82
+Uttam Nagar,Delhi,Delhi,16000,72,70,80,78
+Lajpat Nagar,Delhi,Delhi,25000,78,88,75,84
+Saket,Delhi,Delhi,24000,77,85,78,83
+Mayur Vihar,Delhi,Delhi,20000,74,80,77,79
+Vasant Kunj,Delhi,Delhi,27000,79,82,76,81
+Rohini,Delhi,Delhi,19000,73,75,72,76
+Preet Vihar,Delhi,Delhi,21000,74,78,74,77
+Janakpuri,Delhi,Delhi,23000,76,80,79,80

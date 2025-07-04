@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function App() {
     const [preferences, setPreferences] = useState({
-        budget: 1500,
+        budget: 10000,
         familyFriendly: false,
         walkability: false,
         publicTransport: false,
@@ -38,13 +38,13 @@ function App() {
 
             <form onSubmit={handleSubmit} className="bg-white shadow-lg rounded-xl p-6 w-full max-w-md space-y-4">
                 <div>
-                    <label className="block text-gray-700 mb-1">Budget (INR{preferences.budget})</label>
+                    <label className="block text-gray-700 mb-1">Budget: (INR{preferences.budget})</label>
                     <input
                         type="range"
                         name="budget"
-                        min="500"
-                        max="5000"
-                        step="100"
+                        min="10000"
+                        max="50000"
+                        step="500"
                         value={preferences.budget}
                         onChange={handleChange}
                         className="w-full"
@@ -96,7 +96,7 @@ function App() {
                         <div key={idx} className="bg-white rounded-lg shadow p-4">
                             <h3 className="text-xl font-semibold text-purple-700">{item.neighborhood.name} ({item.score} pts)</h3>
                             <p className="text-gray-600">{item.neighborhood.city}, {item.neighborhood.state}</p>
-                            <p className="text-gray-800 mt-1">Average Rent: ${item.neighborhood.averageRent}</p>
+                            <p className="text-gray-800 mt-1">Average Rent: INR {item.neighborhood.averageRent}</p>
                             <div className="text-sm text-gray-600 mt-2 space-y-1">
                                 <p>Safety Score: {item.neighborhood.safetyScore}</p>
                                 <p>Walkability: {item.neighborhood.walkabilityScore}</p>
