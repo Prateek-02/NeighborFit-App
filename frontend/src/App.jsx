@@ -18,10 +18,12 @@ function App() {
         });
     };
 
+    const API_URL = import.meta.env.VITE_API_URL;
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
-        const res = await fetch('http://localhost:5000/api/match', {
+        const res = await fetch(`${API_URL}/api/match`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(preferences),
